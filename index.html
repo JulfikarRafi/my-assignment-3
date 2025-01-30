@@ -34,56 +34,168 @@
 
 <body>
     <!-- Header  -->
-    <header class="font-sora bg-[#FFF9F4]">
+    <header>
         <!-- navbar -->
-        <section class=" container mx-auto flex items-center lg:py-[38px] py-3 px-4 justify-between">
-            <!-- left  -->
-            <div class="flex items-center">
-                <img src="c1-assets/logo-header.png" alt="">
-                <h2 class="hidden lg:block"><span class="text-2xl text-black">Browse</span><span class="text-2xl text-yellow-300">4</span><span class="text-2xl text-black">Pets</span></h2>
+        <div class="font-sora bg-[#FFF9F4] lg:border-hidden border border-solid border-black">
+            <section class=" container mx-auto flex items-center lg:py-[38px] py-3 px-4 lg:px-0 justify-between">
+                <!-- left  -->
+                <div class="flex items-center">
+                    <img src="c1-assets/logo-header.png" alt="">
+                    <h2 class="hidden lg:block"><span class="text-2xl text-black">Browse</span><span
+                            class="text-2xl text-yellow-300">4</span><span class="text-2xl text-black">Pets</span></h2>
 
-            </div>
-            <!-- mid -->
-            <div class="hidden lg:block">
-                <div class="lg:flex  lg:gap-8 ">
-                    <a href=""><p class="text-xl text-black">Contact us</p></a>
-                    <a href=""><p class="text-xl text-black">Breeds</p></a>
-                    <a href=""><p class="text-xl text-black">Contact us</p></a>
-    
                 </div>
-            </div>
-            <!-- right -->
-            <div class="hidden lg:block">
-                <div class="flex items-center lg:gap-3">
-                
-                    <i class="fa-regular fa-bell text-2xl"></i>
-                    <i class="fa-solid fa-magnifying-glass text-2xl"></i>
-                    <button class="border border-solid border-yellow-300 rounded-lg px-8 py-3 text-xl">Login</button>
-                    <button class="bg-yellow-300 rounded-lg px-8 py-3 text-xl">Register</button>
-    
-                </div>
-            </div>
-            <div class="block lg:hidden">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+                <!-- mid -->
+                <div class="hidden lg:block">
+                    <div class="lg:flex  lg:gap-8 ">
+                        <a href="">
+                            <p class="text-xl text-black">Contact us</p>
+                        </a>
+                        <a href="">
+                            <p class="text-xl text-black">Breeds</p>
+                        </a>
+                        <a href="">
+                            <p class="text-xl text-black">Contact us</p>
+                        </a>
 
+                    </div>
+                </div>
+                <!-- right -->
+                <div class="hidden lg:block">
+                    <div class="flex items-center lg:gap-3">
+
+                        <i class="fa-regular fa-bell text-2xl"></i>
+                        <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                        <button
+                            class="border border-solid border-yellow-300 rounded-lg px-8 py-3 text-xl">Login</button>
+                        <button class="bg-yellow-300 rounded-lg px-8 py-3 text-xl">Register</button>
+
+                    </div>
+                </div>
+                <div class="block lg:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+
+            </section>
+        </div>
+        <!-- banner -->
+        <section class="container mx-auto font-sora mt-8 lg:mt-[100px] ">
+            <div class="relative px-[16px] lg:px-0">
+                <h1 class="font-adl lg:text-[56px] text-black mb-4 hidden lg:block ">Pamper Your Pet, <br> Because They
+                    Deserve <br> the Bes</h1>
+                <h1 class="font-adl text-[30px] text-black mb-3 lg:hidden ">Pamper Your Pet, <br> Because They Deserve
+                    <br> the Bes
+                </h1>
+                <p class="text-gray-700 text-xl mb-5  ">Discover a world of treats, toys, and essentials handpicked for
+                    <br> your furry friends. Shop now and make tails wag with joy!
+                </p>
+                <button class="bg-yellow-300 rounded-lg px-8 py-3  text-black text-[16px]">Find a pet</button>
+            </div>
+            <div class="absolute mt-[-450px] -z-10 hidden lg:block">
+                <img class="w-[1400px]" src="c1-assets/cat-big.png" alt="">
+            </div>
+            <div class="block lg:hidden absolute -z-10 mt-[-100px]">
+                <img src="c1-assets/cat-big.png" alt="">
+            </div>
 
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
     </header>
     <!-- Main -->
-    <main></main>
+    <main class="lg:mt-[500px] mt-[150px] font-sora">
+        <!-- Brows section -->
+        <div class="container mx-auto">
+            
+        <section>
+            <h2 class="font-adl text-2xl lg:text-4xl mb-8 px-3 lg:px-0">Browse By Categories</h2>
+            <!-- cards container -->
+            <div class="grid grid-cols-2 lg:grid-cols-6 lg:gap-6 gap-[10px] px-3 lg:px-0">
+                <!-- card1 -->
+                <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                    <figure class=" pt-10">
+                        <img src="c1-assets/dog-cartoon.png" alt="Shoes" class="bg-white rounded-full p-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-black">Dog</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card2 -->
+                <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                    <figure class=" pt-10">
+                        <img src="c1-assets/fish-cartoon.png" alt="Shoes" class="bg-white rounded-full p-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-black">Fish</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card3 -->
+                <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                    <figure class=" pt-10">
+                        <img src="c1-assets/cat-cartoon.png" alt="Shoes" class="bg-white rounded-full p-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-black">Cat</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card4 -->
+                <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                    <figure class=" pt-10">
+                        <img src="c1-assets/bird-cartoon.png" alt="Shoes" class="bg-white rounded-full p-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-black">Bird</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card5 -->
+                <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                    <figure class=" pt-10">
+                        <img src="c1-assets/mouse-cartoon.png" alt="Shoes" class="bg-white rounded-full p-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-black">Small pet</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card6 -->
+                <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                    <figure class=" pt-10">
+                        <img src="c1-assets/rabbit-cartoon.png" alt="Shoes" class="bg-white rounded-full p-5" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-black">Rabbit</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        </div>
+        <!-- Trending Pet Products section -->
+         <section class=" lg:mt-32 bg lg:bg-[#ffdec6] lg:py-36 ">
+            <!-- main card -->
+            <div class="container mx-auto">
+                <h2>Trending Pet Products</h2>
+
+                <div>
+                    <!-- left -->
+                     <div class="bg-slate-400">
+                        <h2 class="font-adl">T- Shirt for Dogs</h2>
+                        <p>Discover a world of treats, toys, and essentials handpicked for</p>
+                        <button class="bg-white ">Shop Now</button>
+                     </div>
+
+                </div>
+
+            </div>
+            
+            
+         </section>
+    </main>
     <!-- Footer -->
     <footer></footer>
 
